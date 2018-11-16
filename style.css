@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color:black;
+}
+div.container{
+    width:400px;
+    margin:auto;
+    border:1px solid white;
+    height:532px;
+}
+div.container .cal_Name{
+    color:white;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: dotted 1px;
+}
+/* This is calculator heading */
+div.container .cal_operation{
+    color:white;
+    margin-top:15px;
+    font-size:40px;
+    text-align:center;
+    
+}
+
+/* calculator result */
+div.container .cal_layout{
+    width:100%;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color:white;
+    height:80px;
+    font-size: 40px;
+    text-align: center;
+    width:80px;
+
+    
+}
+td:hover{
+    background-color:#990000;
+    transform: rotate(3deg);
+    font-size: 50px;
+}
+/* tabel setting */
